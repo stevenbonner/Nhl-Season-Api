@@ -1,59 +1,59 @@
 var teamStats = [];
 
 var chartStats = [
- 
+
   {
     label: "Total wins ",
     key: 'wins',
-    
+
   },
   {
     label: "Total losses",
     key: 'losses',
-    
+
   },
   {
     label: "Total wins In OT",
     key: 'ot',
-    
+
   },
   {
     label: "Total Points Of The Season",
     key: 'pts',
-    
+
   },
 
   {
     label: "Goals Scored Per Game",
     key: 'goalsPerGame',
-    
+
   },
   {
     label: "Goals Allowed Per Game",
     key: 'goalsAgainstPerGame',
-    
+
   },
-  
+
   {
     label: "PowerPlay Goals Scored",
     key: 'powerPlayGoals',
-    
+
   },
   {
     label: "PowerPlay Goals Allowed",
     key: 'powerPlayGoalsAgainst',
-    
+
   },
   {
     label: "PowerPlay Opportunities Per Game",
     key: 'powerPlayOpportunities',
-    
+
   },
    {
-    
+
     label: "Shots Per Game",
     key: 'shotsPerGame',
-    
+
   },
   {
     label: "Shots Allowed Per Game",
@@ -192,14 +192,14 @@ const displaySeasonChart = function(data) {
         height: '500',titleTextStyle: {
           color: 'red'
         },
-        
+
         hAxis: {
           title: 'Stat For All Teams',
-          
+
           minValue: 0,
-          
+
                 },
-      
+
         bars: 'horizontal'
       });
 
