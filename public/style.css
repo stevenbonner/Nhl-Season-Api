@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://nhl.bamcontent.com/images/photos/287776874/3000x1400/cut.jpg");
+   background-size: 150%; 
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#charts{
+    font-size: 15px;
+    color:blue;
+    
+}
+
+
+
+/* #fetch-btn{
+    height:34px;
+    margin:0 auto;
+    margin-right:10px;
+    float:left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#fetch-btn:hover {
+    background-color: RoyalBlue;
+} */
+
+/* #statchart{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+ */
+
+
+
+ /* #fetch-btn {
+    
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 40%;
+margin-left: 30%;
+margin-right: 30%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  } */
+
+
+  #fetch-btn {
+    background-color: Transparent;
+    background-size: 100%;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 2em 6em;
+    position: relative;
+    text-transform: uppercase;
+  }
