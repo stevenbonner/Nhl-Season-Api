@@ -10,5 +10,5 @@ GitHub user toddmotto maintains [a HUGE list of links to open APIs](https://gith
 
 # API USED
 
-https://statsapi.web.nhl.com/api/v1/teams/${id}/stats
+https://statsapi.web.nhl.com/api/v1/teams/
 # Nhl-Season-Api
